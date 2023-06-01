@@ -3,7 +3,6 @@
 
 This utility crawls pull requests from Github prepo and send a weekly digest to required email.
 
-
 ### Installing Prerequisites:
 ```
 sudo apt-get install git curl vim -y
@@ -46,3 +45,10 @@ sudo apt-get -y install postfix git curl jq vim python3 python3-pip python3-setu
 Example:
 /bin/bash ~/.crawlghpr/crawlghpr.sh hashicorp/terraform abhis27@outlook.com
 ```
+
+### Note:
+
+> There are two versions: `crawlghpr.sh` for arguments based usage   
+> and `crawlghpr_seamless.sh` for seamless usage.  
+
+> For regular reports, both versions of utility may be used with the cron jobs.
