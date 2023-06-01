@@ -1,0 +1,8 @@
+*.txt
+*.pyc
+__pycache__
+*~
+venv
+venv/*
+config.py
+*test.sh
